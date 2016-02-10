@@ -1,0 +1,184 @@
+body{
+	font-family: 'Titillium Web', sans-serif;
+	background: #c1bdba;
+	color: white;
+}
+
+
+.container{
+	background: #25303c;
+	padding: 40px;
+  	max-width:700px;
+  	margin: 40px auto;
+  	min-height: 700px;
+}
+
+
+.buttonStart{
+	max-width: 300px;
+	margin: 40px auto;
+}
+
+.controlPanel{
+	position: relative;
+	height: 120px;
+	margin: 20px auto;
+	text-align: justify;
+}
+
+
+.buttonStart, .dropdown-toggle, .backHome{
+	font-weight: bold;
+	font-size: 30px; 
+	text-align: center;
+	padding: 30px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+
+}
+
+.buttonStart, .dropdown-toggle{
+	background-color: #2fb086;
+}
+
+.dropdown-toggle{
+	float: left;
+	width: 250px;
+
+}
+
+.backHome{
+	float: right;
+	width: 250px;
+	background-color: #8f969d;
+}
+
+
+
+
+
+.addButton, .addBox, .newPart{
+	float: left;
+	clear: both;
+	width: 200px;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+
+
+
+.addButton, .addBox{
+	border: 2px solid white;
+	border-style: none none solid none;
+
+}
+
+.addBox, .addDetail{
+	text-align: left;
+	border-color: white;
+	background-color: #25303c; 
+	font-style: italic;
+	border: 2px solid white;
+	transition: box-shadow 0.3s, border 0.3s;
+}
+
+
+.addBox:focus{
+	outline: 0;
+}
+
+.addDetail:focus{
+	outline: 0;
+}
+
+
+
+
+.newPart{
+	padding: 10px;
+	color: white;
+	float: left;
+	clear: both;
+	width: 200px;
+	font-size: 26px;
+	text-align: center;
+	font-weight: bold;
+	background-color: #8f969d;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px black;
+}
+
+
+
+ul{
+	list-style-type: none;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.getStarted{
+	text-align: center;
+}
+
+
+ul a{
+	color: #8f969d;
+}
+	
+
+
+.buffer{
+	height: 120px;
+}
+
+
+
+.block{
+	clear: both;
+	padding: 20px;
+	color: white;
+	font-weight: bold;
+	border: 2px solid #8f969d;
+}
+
+
+.setList{
+	clear: both;
+	border: 2px solid #8f969d;
+	color: white;
+	min-height: 475px;
+	font-size: 40px;
+}
+
+
+
+.delete{
+	float: right;
+}
+
+
+.entry{
+	margin-bottom: 5px;
+}
+
+.addDetail{
+	font-size: 23px;
+	color: white;
+	width: 600px;
+	padding: 4px;
+}
+	
+
+
+.addDetails:focus{
+	outline: 0;
+}
